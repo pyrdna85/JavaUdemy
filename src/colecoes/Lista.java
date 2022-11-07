@@ -9,11 +9,17 @@ public class Lista {
 		Usuario u1 = new Usuario("Ana");		
 		lista.add(u1);
 		lista.add(new Usuario("Carlos"));
-		lista.add(new Usuario("Pedro"));
-		lista.add(new Usuario("Paulo"));
-		lista.add(new Usuario("Manuela"));
+		lista.add(new Usuario("Lia"));
+		lista.add(new Usuario("Bia"));
+		lista.add(new Usuario("Manu"));
 		
-		System.out.println(lista.get(1));
+		System.out.println(lista.get(3));
+		
+		System.out.println(">>> " + lista.remove(1));
+		System.out.println(lista.remove(new Usuario("Manu")));
+		
+		System.out.println("Tem? " + lista.contains(new Usuario("Ana")));
+		System.out.println("Tem? " + lista.contains(u1));
 		
 		for(Usuario u:lista) {
 			System.out.println(u.nome);
