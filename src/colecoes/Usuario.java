@@ -9,6 +9,10 @@ public class Usuario {
 		this.nome = nome;
 	}
 	
+	public String toRemove() {
+		return "O nome " + this.nome + " foi removido.";
+	}
+	
 	public String toString() {
 		return "Meu nome é " + this.nome + ".";
 	}
