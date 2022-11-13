@@ -9,12 +9,12 @@ public class Fila {
 		
 		Queue<String> fila = new LinkedList<>(); 
 		
-//		fila.add("Rodrigo");
-//		fila.offer("Carla");
-//		fila.add("Miguel");
-//		fila.offer("Pedro");
-//		fila.add("Preta");
-//		fila.offer("Magrela");
+		fila.add("Rodrigo");
+		fila.offer("Carla");
+		fila.add("Miguel");
+		fila.offer("Pedro");
+		fila.add("Preta");
+		fila.offer("Magrela");
 		
 		System.out.println(fila.peek()); // retorna null.
 		System.out.println(fila.element()); // retorna uma exceção.
