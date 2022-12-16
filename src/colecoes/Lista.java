@@ -19,7 +19,8 @@ public class Lista {
 		System.out.println(lista.remove(new Usuario("Manu")));
 		
 		System.out.println("Tem? " + lista.contains(new Usuario("Ana")));
-		System.out.println("Tem? " + lista.contains(u1));
+		System.out.println("Tem? " + lista.contains(u1)); 
+		// Não entendi porque na ausencia de RashCode e Equals a variável (u1) é true. Estudar mais !
 		
 		for(Usuario u:lista) {
 			System.out.println(u.nome);
