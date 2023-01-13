@@ -3,13 +3,13 @@ package oo.composicao;
 public class Motor {
 	
 	double fatorInjecao = 1;
-	boolean ligado = true;
+	boolean ligado = false;
 	
 	int giros() {
-		if(!ligado) {
+		if(ligado != true) {
 			return 0;
 		}else {
-			return (int) Math.round( fatorInjecao * 3000);			
+			return (int) Math.round(fatorInjecao * 3000);			
 		}
 	}
 
