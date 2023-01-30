@@ -6,4 +6,5 @@
  *
  */
 module JavaUdemy {
+	requires java.desktop;
 }
