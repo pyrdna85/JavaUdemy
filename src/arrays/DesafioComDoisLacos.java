@@ -7,14 +7,14 @@ public class DesafioComDoisLacos {
 	public static void main(String[] args) {		
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Informe quantas notas você quer inserir:: ");
+		System.out.println("Informe quantas notas vocï¿½ quer inserir: ");
 		
 		int quantidadeDeNotas = entrada.nextInt();		
 		
 		double[] notasAlunos = new double [quantidadeDeNotas];		
 
 		for(int i = 0; i < notasAlunos.length; i++) {
-			System.out.println("Informe a " + (i + 1) + "° nota.");
+			System.out.println("Informe a " + (i + 1) + "ï¿½ nota.");
 			notasAlunos[i] = entrada.nextDouble();			
 		}	
 		
@@ -23,7 +23,7 @@ public class DesafioComDoisLacos {
 			total += nota;
 		}
 		
-		System.out.println("A média é " + (total / notasAlunos.length));
+		System.out.println("A mï¿½dia ï¿½ " + (total / notasAlunos.length));
 		entrada.close();		
 	}
 }
