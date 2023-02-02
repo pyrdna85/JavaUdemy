@@ -6,7 +6,7 @@ public class DesafioComDoisLacos {
 	
 	public static void main(String[] args) {		
 		Scanner entrada = new Scanner(System.in);
-		
+		System.out.println("Sugestão");
 		
 		System.out.println("Informe quantas notas você quer inserir: ");
 		
