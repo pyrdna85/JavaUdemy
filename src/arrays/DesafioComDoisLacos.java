@@ -6,7 +6,7 @@ public class DesafioComDoisLacos {
 	
 	public static void main(String[] args) {		
 		Scanner entrada = new Scanner(System.in);
-		
+		System.out.println("Teste Branch 08");
 		
 		System.out.println("Informe quantas notas voc� quer inserir: ");
 		
