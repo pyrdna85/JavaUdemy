@@ -24,7 +24,7 @@ public class DesafioComDoisLacos {
 			total += nota;
 		}
 		
-		System.out.println("A m�dia � " + (total / notasAlunos.length));
+		System.out.println("A média é " + (total / notasAlunos.length));
 		entrada.close();		
 	}
 }
